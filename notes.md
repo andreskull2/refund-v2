@@ -33,3 +33,15 @@ Criar um "escutador" de eventos que ficará atento a cada caractere digitado pel
 Implementar a lógica de validação que permitirá apenas a entrada de dígitos, transformando a digitação de valores em uma experiência fluida e sem falhas.
 
 Prepare-se para fazer o JavaScript responder em tempo real às ações do usuário!
+
+# Refinando o Input: Somente Números com Regex
+Nesta aula, vamos implementar uma solução poderosa e eficiente para garantir que o campo de "Valor" da despesa aceite exclusivamente números.
+
+Usaremos as Expressões Regulares (Regex) para:
+
+"Filtrar" a entrada do usuário em tempo real.
+
+Remover automaticamente qualquer caractere que não seja um dígito, garantindo que o valor final seja sempre numérico.
+
+Você verá como o Regex pode ser uma ferramenta incrível para validação e manipulação de strings, tornando seu formulário ainda mais robusto e amigável.
+
