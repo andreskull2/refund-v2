@@ -13,3 +13,6 @@ Você pode acessar o repositório diretamente no GitHub neste link:
 Template da aplicação: https://github.com/rocketseat-education/refund-template
 
 Vamos aprender a clonar o projeto usando Git ou, se preferir, a fazer o download do arquivo ZIP. Assim, teremos a estrutura pronta para começar a codificar o JavaScript nas próximas aulas!
+
+# Criando o arquivo de scripts
+Nessa aula, aprederemos a criar um arquivo de script.js e conectá-lo ao HTML. Conectar o Javascript é essencial para o funcionamento correto da página web.
