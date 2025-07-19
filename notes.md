@@ -4,3 +4,12 @@ Nesta aula, vamos colocar a mão na massa e desenvolver um sistema de reembolso 
 Não se preocupe com o HTML e o CSS, eles já estarão prontos para que a gente possa focar 100% na lógica do JavaScript. Nosso objetivo é conectar todas as partes e usar tudo o que você aprendeu para criar algo realmente irado.
 
 Bora nessa? Prepare-se para aprender muito e se divertir com este projeto!
+
+# Baixando o Template do Projeto
+Nesta etapa, vamos baixar o template HTML e CSS que servirá como base para o nosso projeto Refund-v2.
+
+Você pode acessar o repositório diretamente no GitHub neste link:
+
+Template da aplicação: https://github.com/rocketseat-education/refund-template
+
+Vamos aprender a clonar o projeto usando Git ou, se preferir, a fazer o download do arquivo ZIP. Assim, teremos a estrutura pronta para começar a codificar o JavaScript nas próximas aulas!
