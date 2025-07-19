@@ -21,3 +21,15 @@ Pense nisso como preparar o palco para os atores entrarem em cena: sem a conexã
 
 Vamos configurar tudo para que o script.js esteja pronto para receber toda a inteligência e interatividade que vamos construir nas próximas aulas.
 
+# Interagindo com o Usuário: Validando Entradas Inteligentes
+Agora a gente começa a tornar a aplicação interativa! Nosso objetivo nesta aula é garantir que o campo de "Valor" da despesa aceite apenas números, facilitando a vida do usuário e prevenindo erros.
+
+Vamos mergulhar no JavaScript para:
+
+"Encontrar" o elemento de input específico no nosso HTML, usando seu identificador único.
+
+Criar um "escutador" de eventos que ficará atento a cada caractere digitado pelo usuário.
+
+Implementar a lógica de validação que permitirá apenas a entrada de dígitos, transformando a digitação de valores em uma experiência fluida e sem falhas.
+
+Prepare-se para fazer o JavaScript responder em tempo real às ações do usuário!
