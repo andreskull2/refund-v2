@@ -188,3 +188,10 @@ Nesta aula, vamos implementar a funcionalidade que permite ao usuário remover d
 Você aprenderá a "escutar" os cliques em cada item da lista e, de forma inteligente, identificar se o clique ocorreu exatamente no ícone de remoção. Para isso, faremos uma verificação da classe do elemento clicado, garantindo que a ação de exclusão só seja ativada quando o ícone correto for acionado.
 
 Essa estratégia nos permite saber com exatidão quando o usuário deseja remover um item, abrindo caminho para que possamos retirá-lo da lista de forma eficaz e sem erros.
+
+# Executando a Ação: Removendo o Item da Lista
+Com a identificação do clique no ícone de remoção já implementada, nesta aula vamos para a ação final: remover efetivamente o item da lista.
+
+Você aprenderá a escrever o código necessário para que, ao capturarmos o clique no ícone, a despesa correspondente seja retirada da exibição e de nossa estrutura de dados.
+
+É o passo que completa o ciclo de gerenciamento de itens, dando ao usuário o controle total sobre as despesas registradas!
