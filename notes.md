@@ -75,3 +75,16 @@ Melhorar a legibilidade: Deixa seu código mais limpo e fácil de entender.
 Preparar para o futuro: Objetos são a base para armazenar, exibir e trabalhar com múltiplos registros de despesas na nossa aplicação.
 
 Você verá como criar um objeto é simples e poderoso para organizar os dados que obtemos do formulário.
+
+# Automatizando o Registro: Adicionando Despesas com Segurança
+Nesta aula, vamos criar a peça central para o nosso sistema: uma função dedicada a adicionar cada nova despesa à lista da aplicação. É aqui que os dados do formulário serão processados e inseridos no local correto.
+
+Mais do que apenas adicionar, essa função será construída com robustez em mente. Para garantir uma experiência fluida e previsível, vamos implementar um bloco try-catch. Isso nos permitirá:
+
+Capturar e gerenciar qualquer erro que possa ocorrer durante o processo de adição da despesa.
+
+Exibir mensagens detalhadas no console (para sua depuração como desenvolvedor).
+
+Fornecer alertas claros e amigáveis ao usuário (caso algo inesperado aconteça), garantindo que ele sempre seja informado.
+
+Prepare-se para construir uma função eficiente e à prova de falhas para o seu Refund-v2!

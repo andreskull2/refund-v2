@@ -43,5 +43,17 @@ form.onsubmit = (event) => {
         amount: amount.value, // Obtém o valor formatado do campo de valor.
         created_at: new Date(), // Define a data de criação como a data atual.
     }
+
+    // Chama a função que irá adicionar o item na lista.
+    expenseAdd(newExpense);
+}
+
+function expenseAdd(newExpense) {
+    try {
+
+    } catch (error) {
+        alert("Não foi possível atualizar a lista de despesas.");
+        console.log(error);
+    }
 }
 
