@@ -61,7 +61,7 @@ function expenseAdd(newExpense) {
         expenseItem.classList.add("expense");
 
         // Cria o ícone da categoria.
-        const espenseIcon = document.createElement("img");
+        const expenseIcon = document.createElement("img");
         expenseIcon.setAttribute("src", `img/${newExpense.category_id}.svg`);
         expenseIcon.setAttribute("alt", newExpense.category_name);
 
@@ -70,8 +70,8 @@ function expenseAdd(newExpense) {
         expenseInfo.classList.add("expense-info");
 
         // Cria o nome da despesa.
-        const expenseName = document.createElemment("strong");
-        expenseName.textContent = newExpense.expence;
+        const expenseName = document.createElement("strong");
+        expenseName.textContent = newExpense.expense;
 
         // Cria a categoria da despesa.
         const expenseCategory = document.createElement("span");
@@ -98,7 +98,7 @@ function expenseAdd(newExpense) {
         expenseList.append(expenseItem);
 
         // Atualiza os totais.
-        updateTitals();
+        updateTotals();
 
     } catch (error) {
         alert("Não foi possível atualizar a lista de despesas.");
@@ -123,7 +123,7 @@ function updateTotals() {
             const itemAmount = items[item].querySelector(".expense-amount");
 
             // Remove caracteres não numéricos e substitui a vírgula pelo ponto.
-            let value = itemAmount.textContent.replace(/[ˆ\d,]/g, "").replace(",", ".");
+            let value = itemAmount.textContent.replace(/[^\d,]/g, "").replace(",", ".");
 
             // Converte o valor para float.
             value = parseFloat(value);
@@ -166,9 +166,9 @@ expenseList.addEventListener("click", function(event) {
 
         // Remove o item da lista.
         item.remove();
+        
+        // Atualiza os totais.
+        updateTotals();
     }
-
-    // Atualiza os totais.
-    updateTotals();
 })
 
