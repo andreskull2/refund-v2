@@ -97,3 +97,10 @@ Vamos utilizar o JavaScript para criar dinamicamente os elementos HTML que comp�
 Você aprenderá a "montar" cada despesa visualmente, adicionando as classes de estilização necessárias para que elas se encaixem perfeitamente no design do seu Refund-v2, garantindo uma apresentação clara e organizada para o usuário.
 
 Prepare-se para ver os dados das suas despesas ganharem vida na interface!
+
+# CVisualizando a Categoria: Adicionando Ícones Dinâmicos 
+Nesta aula, daremos um toque visual e prático à nossa lista de despesas!
+
+Você aprenderá a usar o JavaScript para adicionar dinamicamente o ícone correspondente a cada categoria de despesa. Em vez de apenas o nome, cada item de despesa ganhará um elemento visual (como um ícone de avião para viagens ou um garfo para alimentação).
+
+Isso não só enriquece a interface do usuário, mas também torna a leitura e a identificação rápida das despesas muito mais eficiente e intuitiva. Vamos dar vida visual às suas categorias!
