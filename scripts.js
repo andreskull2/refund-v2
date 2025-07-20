@@ -54,7 +54,7 @@ form.onsubmit = (event) => {
 function expenseAdd(newExpense) {
     try {
         // Cria o elemento para adicionar o item (li) na lista (ul).
-        const expenseItem = document.createAttribute("li");
+        const expenseItem = document.createElement("li");
         expenseItem.classList.add("expense");
 
         // Cria o ícone da categoria.
@@ -62,12 +62,27 @@ function expenseAdd(newExpense) {
         expenseIcon.setAttribute("src", `img/${newExpense.category_id}.svg`);
         expenseIcon.setAttribute("alt", newExpense.category_name);
 
+        // Cria a informação da despesa.
+        const expenseInfo = document.createElement("div");
+        expenseInfo.classList.add("expense-info");
+
+        // Cria o nome da despesa.
+        const expenseName = document.createElemment("strong");
+        expenseName.textContent = newExpense.expence;
+
+        // Cria a categoria da despesa.
+        const expenseCategory = document.createElement("span");
+        expenseCategory.textContent = newExpense.category_name;
+
+        // Adiciona name e categoria na div das informações da despesa.
+        expenseInfo.append(expenseName, expenseCategory);
+
         // Adiciona as informações no item.
-        expenseItem.appendChild(expenseIcon);
+        expenseItem.append(expenseIcon, expenseInfo);
 
         // Adiciona o item.
         expenseList.append(expenseItem);
-        
+
     } catch (error) {
         alert("Não foi possível atualizar a lista de despesas.");
         console.log(error);
