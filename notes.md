@@ -53,3 +53,12 @@ Você aprenderá a usar o poderoso método toLocaleString() do JavaScript, confi
 O mais legal é que vamos fazer uma "mágica" para que, enquanto o usuário digita, o valor já seja automaticamente formatado para centavos e exibido no padrão monetário, tornando a experiência de preenchimento muito mais intuitiva e livre de erros.
 
 Prepare-se para ver os números se transformarem em dinheiro de verdade na tela!
+
+# Coletando as Informações: Dando Vida ao Formulário
+Chegou a hora de fazer nosso formulário de reembolso funcionar de verdade!
+
+Nesta aula, vamos aprender a capturar todas as informações que o usuário digitou nos campos da despesa. Para isso, configuraremos um evento de submit no formulário, que nos permitirá "interceptar" os dados no momento em que o usuário finaliza o preenchimento e clica em "Adicionar despesa".
+
+Com essa funcionalidade, teremos o controle total sobre os dados inseridos, abrindo caminho para processá-los, validá-los e, finalmente, transformá-los em um registro de reembolso.
+
+Prepare-se para ver os dados do formulário nas suas mãos!
