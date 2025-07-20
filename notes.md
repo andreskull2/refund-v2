@@ -126,3 +126,15 @@ Nesta aula, vamos adicionar uma funcionalidade essencial para o controle das des
 Você aprenderá a criar e integrar o ícone de remover (como um "X" ou uma lixeira) a cada item de despesa adicionado. Este botão não será apenas visual; ele servirá como o ponto de partida para que o usuário possa excluir facilmente despesas indesejadas ou incorretas.
 
 É um passo importante para tornar a aplicação mais interativa e dar total controle sobre os registros de reembolso!
+
+# Mantendo Tudo Atualizado: Contagem e Total das Despesas
+Nesta aula, vamos garantir que o nosso aplicativo de reembolso forneça uma visão clara e em tempo real do status das despesas!
+
+Você aprenderá a implementar a atualização dinâmica não apenas da lista de itens, mas também de dois indicadores cruciais:
+
+A quantidade total de despesas registradas.
+
+O valor total consolidado de todos os reembolsos.
+
+Criaremos as funções necessárias para que, a cada nova despesa adicionada (ou removida!), esses números sejam recalculados e exibidos instantaneamente na interface, proporcionando uma visão geral sempre atualizada para o usuário.
+
