@@ -92,7 +92,8 @@ Prepare-se para construir uma função eficiente e à prova de falhas para o seu
 # Dando Forma às Despesas: Construindo os Itens da Lista
 Nesta aula, é hora de fazer as despesas aparecerem na tela!
 
-Vamos utilizar o JavaScript para criar dinamicamente os elementos HTML que compõem cada item da nossa lista de despesas (o famoso <li>).
+Vamos utilizar o JavaScript para criar dinamicamente os elementos HTML que compõem cada item da nossa lista de despesas 
+(o famoso <li>).
 
 Você aprenderá a "montar" cada despesa visualmente, adicionando as classes de estilização necessárias para que elas se encaixem perfeitamente no design do seu Refund-v2, garantindo uma apresentação clara e organizada para o usuário.
 
@@ -111,3 +112,11 @@ Nesta aula, vamos focar em como apresentar os detalhes de cada despesa de forma 
 Você aprenderá a usar o JavaScript para criar e organizar os elementos HTML essenciais (como <div>, <strong> e <span>) que exibirão o nome e a categoria de cada despesa.
 
 Veremos a importância de "aninhá-los" corretamente — colocando um elemento dentro do outro — para construir uma estrutura lógica e visualmente coesa. Essa abordagem modular garante que cada informação seja exibida no seu devido lugar, tornando a lista de despesas intuitiva e fácil de ler para o usuário.
+
+# Finalizando os Detalhes: Exibindo o Valor da Despesa
+Nesta aula, vamos adicionar a peça que faltava para completar a visualização de cada despesa: o valor monetário.
+
+Você aprenderá a criar e posicionar dinamicamente o valor da despesa (já formatado para o Real Brasileiro, como fizemos anteriormente!) dentro do item da lista.
+
+Nosso objetivo é garantir que o preço seja exibido de forma clara e visível, finalizando a representação completa de cada registro de reembolso. É o último toque para que cada despesa esteja completa e pronta para ser visualizada!
+
