@@ -181,3 +181,10 @@ Adição do símbolo de moeda (R$): Garantindo que o valor seja imediatamente re
 Tratamento da vírgula decimal: Evitando erros comuns e garantindo a precisão na exibição dos centavos.
 
 Transformaremos um simples número em um valor financeiro perfeitamente legível e profissional para o seu Refund-v2!
+
+# Interceptando a Ação: Removendo Despesas com Precisão
+Nesta aula, vamos implementar a funcionalidade que permite ao usuário remover despesas específicas da lista com um simples clique.
+
+Você aprenderá a "escutar" os cliques em cada item da lista e, de forma inteligente, identificar se o clique ocorreu exatamente no ícone de remoção. Para isso, faremos uma verificação da classe do elemento clicado, garantindo que a ação de exclusão só seja ativada quando o ícone correto for acionado.
+
+Essa estratégia nos permite saber com exatidão quando o usuário deseja remover um item, abrindo caminho para que possamos retirá-lo da lista de forma eficaz e sem erros.
