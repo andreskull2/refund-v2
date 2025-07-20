@@ -5,11 +5,11 @@ Não se preocupe com o HTML e o CSS, eles já estarão prontos para que a gente 
 
 Bora nessa? Prepare-se para aprender muito e se divertir com este projeto!
 
-# Baixando o Template do Projeto
+# 1. Configuração Inicial do Projeto
+Baixando o Template do Projeto
 Nesta etapa, vamos baixar o template HTML e CSS que servirá como base para o nosso projeto Refund-v2.
 
 Você pode acessar o repositório diretamente no GitHub neste link:
-
 Template da aplicação: https://github.com/rocketseat-education/refund-template
 
 Vamos aprender a clonar o projeto usando Git ou, se preferir, a fazer o download do arquivo ZIP. Assim, teremos a estrutura pronta para começar a codificar o JavaScript nas próximas aulas!
@@ -21,7 +21,8 @@ Pense nisso como preparar o palco para os atores entrarem em cena: sem a conexã
 
 Vamos configurar tudo para que o script.js esteja pronto para receber toda a inteligência e interatividade que vamos construir nas próximas aulas.
 
-# Interagindo com o Usuário: Validando Entradas Inteligentes
+# 2. Interagindo com o Formulário (Input de Dados)
+Interagindo com o Usuário: Validando Entradas Inteligentes
 Agora a gente começa a tornar a aplicação interativa! Nosso objetivo nesta aula é garantir que o campo de "Valor" da despesa aceite apenas números, facilitando a vida do usuário e prevenindo erros.
 
 Vamos mergulhar no JavaScript para:
@@ -63,7 +64,8 @@ Com essa funcionalidade, teremos o controle total sobre os dados inseridos, abri
 
 Prepare-se para ver os dados do formulário nas suas mãos!
 
-# Organizando os Dados: Montando a Nova Despesa
+# 3. Processamento e Adição da Despesa
+Organizando os Dados: Montando a Nova Despesa
 Nesta aula, vamos aprender a estruturar as informações de cada despesa de forma organizada e eficiente.
 
 Vamos criar um objeto JavaScript que servirá como um "contêiner" para agrupar todos os detalhes de uma única despesa (título, categoria, valor, etc.). Essa prática é fundamental para:
@@ -89,17 +91,17 @@ Fornecer alertas claros e amigáveis ao usuário (caso algo inesperado aconteça
 
 Prepare-se para construir uma função eficiente e à prova de falhas para o seu Refund-v2!
 
-# Dando Forma às Despesas: Construindo os Itens da Lista
+# 4. Exibição Dinâmica da Lista de Despesas
+Dando Forma às Despesas: Construindo os Itens da Lista
 Nesta aula, é hora de fazer as despesas aparecerem na tela!
 
-Vamos utilizar o JavaScript para criar dinamicamente os elementos HTML que compõem cada item da nossa lista de despesas 
-(o famoso <li>).
+Vamos utilizar o JavaScript para criar dinamicamente os elementos HTML que compõem cada item da nossa lista de despesas (o famoso <li>).
 
 Você aprenderá a "montar" cada despesa visualmente, adicionando as classes de estilização necessárias para que elas se encaixem perfeitamente no design do seu Refund-v2, garantindo uma apresentação clara e organizada para o usuário.
 
 Prepare-se para ver os dados das suas despesas ganharem vida na interface!
 
-# Visualizando a Categoria: Adicionando Ícones Dinâmicos 
+# Visualizando a Categoria: Adicionando Ícones Dinâmicos
 Nesta aula, daremos um toque visual e prático à nossa lista de despesas!
 
 Você aprenderá a usar o JavaScript para adicionar dinamicamente o ícone correspondente a cada categoria de despesa. Em vez de apenas o nome, cada item de despesa ganhará um elemento visual (como um ícone de avião para viagens ou um garfo para alimentação).
@@ -120,7 +122,8 @@ Você aprenderá a criar e posicionar dinamicamente o valor da despesa (já form
 
 Nosso objetivo é garantir que o preço seja exibido de forma clara e visível, finalizando a representação completa de cada registro de reembolso. É o último toque para que cada despesa esteja completa e pronta para ser visualizada!
 
-# Dando Poder ao Usuário: Adicionando o Botão de Remover
+# 5. Interatividade e Cálculos da Lista
+Dando Poder ao Usuário: Adicionando o Botão de Remover
 Nesta aula, vamos adicionar uma funcionalidade essencial para o controle das despesas: a opção de remover um item da lista.
 
 Você aprenderá a criar e integrar o ícone de remover (como um "X" ou uma lixeira) a cada item de despesa adicionado. Este botão não será apenas visual; ele servirá como o ponto de partida para que o usuário possa excluir facilmente despesas indesejadas ou incorretas.
@@ -138,6 +141,21 @@ O valor total consolidado de todos os reembolsos.
 
 Criaremos as funções necessárias para que, a cada nova despesa adicionada (ou removida!), esses números sejam recalculados e exibidos instantaneamente na interface, proporcionando uma visão geral sempre atualizada para o usuário.
 
+# Preparando os Valores: Garantindo Cálculos Precisos
+Nesta aula crucial, vamos focar em uma etapa fundamental para que os cálculos do nosso sistema sejam sempre exatos: a preparação dos valores das despesas.
+
+Você aprenderá a:
+
+"Limpar" os dados: Removendo quaisquer caracteres não numéricos que possam ter escapado à validação inicial.
+
+Padronizar a formatação: Convertendo vírgulas para pontos, assegurando que o JavaScript reconheça os números decimais corretamente.
+
+Converter para formato numérico (float): Transformando a string de texto em um número real que possa ser utilizado em operações matemáticas.
+
+Validar a integridade: Verificando se o resultado da conversão é, de fato, um número válido antes de adicioná-lo ao total, evitando erros e comportamentos inesperados.
+
+Este passo garante que cada centavo seja contado com precisão, construindo um cálculo total absolutamente confiável para o seu Refund-v2!
+
 # Calculando o Grande Total: Percorrendo as Despesas
 Nesta aula, vamos colocar a "contabilidade" em prática!
 
@@ -150,3 +168,16 @@ Extrair o valor de cada despesa de forma precisa.
 Somar esses valores para chegar ao montante final.
 
 Prepare-se para ver o JavaScript trabalhar como um verdadeiro contador, consolidando todos os seus gastos de forma eficiente!
+
+# Deixando o Total no Padrão: Formatando o Valor Consolidado
+Nesta aula, vamos garantir que o valor total das despesas seja exibido de forma impecável e no padrão financeiro correto.
+
+Você aprenderá as melhores práticas para a formatação de valores monetários em JavaScript, com um foco especial em:
+
+Reutilização de código: Como criar métodos de formatação que podem ser aplicados em diferentes partes da sua aplicação, evitando repetição.
+
+Adição do símbolo de moeda (R$): Garantindo que o valor seja imediatamente reconhecido como dinheiro.
+
+Tratamento da vírgula decimal: Evitando erros comuns e garantindo a precisão na exibição dos centavos.
+
+Transformaremos um simples número em um valor financeiro perfeitamente legível e profissional para o seu Refund-v2!
