@@ -88,3 +88,12 @@ Exibir mensagens detalhadas no console (para sua depuração como desenvolvedor)
 Fornecer alertas claros e amigáveis ao usuário (caso algo inesperado aconteça), garantindo que ele sempre seja informado.
 
 Prepare-se para construir uma função eficiente e à prova de falhas para o seu Refund-v2!
+
+# Dando Forma às Despesas: Construindo os Itens da Lista
+Nesta aula, é hora de fazer as despesas aparecerem na tela!
+
+Vamos utilizar o JavaScript para criar dinamicamente os elementos HTML que compõem cada item da nossa lista de despesas (o famoso <li>).
+
+Você aprenderá a "montar" cada despesa visualmente, adicionando as classes de estilização necessárias para que elas se encaixem perfeitamente no design do seu Refund-v2, garantindo uma apresentação clara e organizada para o usuário.
+
+Prepare-se para ver os dados das suas despesas ganharem vida na interface!
