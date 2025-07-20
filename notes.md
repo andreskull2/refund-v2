@@ -62,3 +62,16 @@ Nesta aula, vamos aprender a capturar todas as informações que o usuário digi
 Com essa funcionalidade, teremos o controle total sobre os dados inseridos, abrindo caminho para processá-los, validá-los e, finalmente, transformá-los em um registro de reembolso.
 
 Prepare-se para ver os dados do formulário nas suas mãos!
+
+# Organizando os Dados: Montando a Nova Despesa
+Nesta aula, vamos aprender a estruturar as informações de cada despesa de forma organizada e eficiente.
+
+Vamos criar um objeto JavaScript que servirá como um "contêiner" para agrupar todos os detalhes de uma única despesa (título, categoria, valor, etc.). Essa prática é fundamental para:
+
+Centralizar os dados: Facilita o acesso e a manipulação das informações de uma despesa.
+
+Melhorar a legibilidade: Deixa seu código mais limpo e fácil de entender.
+
+Preparar para o futuro: Objetos são a base para armazenar, exibir e trabalhar com múltiplos registros de despesas na nossa aplicação.
+
+Você verá como criar um objeto é simples e poderoso para organizar os dados que obtemos do formulário.
