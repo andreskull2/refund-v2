@@ -120,3 +120,9 @@ Você aprenderá a criar e posicionar dinamicamente o valor da despesa (já form
 
 Nosso objetivo é garantir que o preço seja exibido de forma clara e visível, finalizando a representação completa de cada registro de reembolso. É o último toque para que cada despesa esteja completa e pronta para ser visualizada!
 
+# Dando Poder ao Usuário: Adicionando o Botão de Remover
+Nesta aula, vamos adicionar uma funcionalidade essencial para o controle das despesas: a opção de remover um item da lista.
+
+Você aprenderá a criar e integrar o ícone de remover (como um "X" ou uma lixeira) a cada item de despesa adicionado. Este botão não será apenas visual; ele servirá como o ponto de partida para que o usuário possa excluir facilmente despesas indesejadas ou incorretas.
+
+É um passo importante para tornar a aplicação mais interativa e dar total controle sobre os registros de reembolso!
