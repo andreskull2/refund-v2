@@ -1,18 +1,27 @@
 // Seleciona os elementos do formulário.
 const amount = document.getElementById("amount");
 
+// Captura o evento de input para formatar o valor.
 amount.oninput = () => {
-    // 1. Loga o valor original do input antes de qualquer modificação.
-    // console.log("Valor original (com letras/símbolos):", amount.value);
-
+    
+    // Obtém o valor atual do input e remove os caracteres não numéricos.
     let value = amount.value.replace(/\D/g, "");
 
-    // 2. Loga o valor depois de remover tudo que não é número (a string limpa).
-    // console.log("Valor após regex (somente números):", value);
+    // Transforma o valor em centavos (exemplo: 150/100 = 1.5 que é equivalente a R$ 1,50).
+    value = Number(value) / 100;
 
-    amount.value = value;
-    
-    // 3. Loga o valor final que foi atribuído de volta ao input.
-    // console.log("Valor final no input:", amount.value);
-    // console.log("---"); // Para separar as entradas no console.
+    // Atualiza o valor do input.
+    amount.value = formatCurrencyBRL(value);
 };
+
+function formatCurrencyBRL(value) {
+
+    // Formata o valor no padrão BRL (Real Brasileiro).
+    value = value.toLocaleString("pt-BR", {
+        style: "currency",
+        currency: "BRL",
+    })
+
+    // Retorna o valor formatado.
+    return value;
+}

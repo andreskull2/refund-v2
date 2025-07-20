@@ -45,3 +45,11 @@ Remover automaticamente qualquer caractere que não seja um dígito, garantindo 
 
 Você verá como o Regex pode ser uma ferramenta incrível para validação e manipulação de strings, tornando seu formulário ainda mais robusto e amigável.
 
+# Deixando os Valores com a Cara do Brasil: Formatando Moeda
+Nesta aula, vamos adicionar um toque de profissionalismo e usabilidade ao nosso campo de "Valor", garantindo que ele exiba o valor da despesa no formato de moeda do Real Brasileiro (R$) em tempo real!
+
+Você aprenderá a usar o poderoso método toLocaleString() do JavaScript, configurando-o com a localidade pt-BR e a moeda BRL.
+
+O mais legal é que vamos fazer uma "mágica" para que, enquanto o usuário digita, o valor já seja automaticamente formatado para centavos e exibido no padrão monetário, tornando a experiência de preenchimento muito mais intuitiva e livre de erros.
+
+Prepare-se para ver os números se transformarem em dinheiro de verdade na tela!
