@@ -138,3 +138,15 @@ O valor total consolidado de todos os reembolsos.
 
 Criaremos as funções necessárias para que, a cada nova despesa adicionada (ou removida!), esses números sejam recalculados e exibidos instantaneamente na interface, proporcionando uma visão geral sempre atualizada para o usuário.
 
+# Calculando o Grande Total: Percorrendo as Despesas
+Nesta aula, vamos colocar a "contabilidade" em prática!
+
+Você aprenderá a criar a lógica para calcular o valor total de todas as despesas registradas. Para isso, utilizaremos um loop for para:
+
+"Caminhar" por cada item individualmente na nossa lista de despesas.
+
+Extrair o valor de cada despesa de forma precisa.
+
+Somar esses valores para chegar ao montante final.
+
+Prepare-se para ver o JavaScript trabalhar como um verdadeiro contador, consolidando todos os seus gastos de forma eficiente!
