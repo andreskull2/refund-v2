@@ -206,3 +206,14 @@ Limpeza Automática: Garantiremos que os campos do formulário sejam limpos auto
 Foco Inteligente: Além de limpar, vamos configurar o foco automático para o primeiro campo de entrada (o campo de título da despesa), permitindo que o usuário continue digitando sem precisar usar o mouse ou o teclado para navegar.
 
 São esses pequenos detalhes que transformam uma aplicação funcional em uma experiência agradável e intuitiva para quem a usa!
+
+# Projeto Refund-v2: Missão Cumprida!
+Chegamos ao fim da nossa jornada de desenvolvimento do sistema de reembolso!
+
+Nesta aula final, vamos celebrar o que construímos juntos: uma aplicação funcional, interativa e robusta, que solidificou seu conhecimento em JavaScript e no desenvolvimento web.
+
+Refletiremos sobre cada etapa, desde a validação de inputs e a formatação de moeda, passando pela manipulação dinâmica do DOM e o tratamento de erros, até a atualização em tempo real de contagens e totais.
+
+Parabéns por ter chegado até aqui! Este projeto é a prova prática de que você tem o que é preciso para transformar ideias em realidade com código.
+
+O futuro te espera com muitos outros desafios e aprendizados!
