@@ -195,3 +195,14 @@ Com a identificação do clique no ícone de remoção já implementada, nesta a
 Você aprenderá a escrever o código necessário para que, ao capturarmos o clique no ícone, a despesa correspondente seja retirada da exibição e de nossa estrutura de dados.
 
 É o passo que completa o ciclo de gerenciamento de itens, dando ao usuário o controle total sobre as despesas registradas!
+
+# Refinando a Experiência: Usabilidade na Prática
+Nesta aula, vamos dar um toque final de polimento ao nosso formulário, focando diretamente na usabilidade e na fluidez da interação para o usuário.
+
+Você aprenderá a implementar pequenas, mas poderosas, melhorias que fazem toda a diferença:
+
+Limpeza Automática: Garantiremos que os campos do formulário sejam limpos automaticamente logo após o usuário adicionar uma nova despesa, preparando-o para o próximo registro sem digitação extra.
+
+Foco Inteligente: Além de limpar, vamos configurar o foco automático para o primeiro campo de entrada (o campo de título da despesa), permitindo que o usuário continue digitando sem precisar usar o mouse ou o teclado para navegar.
+
+São esses pequenos detalhes que transformam uma aplicação funcional em uma experiência agradável e intuitiva para quem a usa!

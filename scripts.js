@@ -94,8 +94,11 @@ function expenseAdd(newExpense) {
         // Adiciona as informações no item.
         expenseItem.append(expenseIcon, expenseInfo, expenseAmount, removeIcon);
 
-        // Adiciona o item.
+        // Adiciona o item na lista.
         expenseList.append(expenseItem);
+
+        // Limpa o formulário para adicionar um item novo.
+        formClear();
 
         // Atualiza os totais.
         updateTotals();
@@ -172,3 +175,12 @@ expenseList.addEventListener("click", function(event) {
     }
 })
 
+// Limpa os inputs do formulário.
+function formClear() {
+    expense.value = "";
+    category.value = "";
+    amount.value = "";
+
+    // Coloca o foco no input de amount.
+    expense.focus();
+}
