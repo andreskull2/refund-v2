@@ -20,7 +20,7 @@
 <br>
 
 <p align="center">
-  <img alt="Project preview" src="github/your-new-cover.jpg" width="100%">
+  <img alt="Project preview" src="github/cover.png" width="100%">
 </p>
 
 ---
